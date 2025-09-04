@@ -1,0 +1,227 @@
+.d-flex {
+    margin-left: -8rem;
+    width: 23rem;
+    height: 2.3rem;
+}
+Garis putih permanen di bawah navbar
+.navbar {
+  border-bottom: 2px solid white;
+}
+
+
+/* Garis putih permanen di bawah navbar */
+.navbar {
+  border-bottom: 2px solid white;
+}
+
+/* Style untuk link navbar */
+.navbar-nav .nav-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem; /* kasih jarak antar menu */
+  font-family: 'Jacques Francois';
+}
+
+/* Efek hover underline */
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width:100%;
+}
+
+/* Style untuk link navbar
+.navbar-nav .nav-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem; 
+  font-family: 'Jacques Francois';
+}
+
+Efek hover underline
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width:100%;
+} */
+
+/* .navbar-nav {
+   margin-right: -5rem;
+   gap: 3rem;
+   font-family: 'Jacques Francois';
+   font-size: 0.9rem;
+   color: white;
+} */
+
+.cr {
+    object-fit: contain;
+    margin-right: 2rem;
+    margin-top: 0.1rem;
+    height: 2.5rem;
+}
+
+.y {
+    width: 53rem;
+    height: 30rem;
+    object-fit: cover;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.rec {
+    background-color: #676666;
+    border-radius: 2%;
+    width: 29rem;
+    height: 17rem;
+    margin-left: 44rem;
+    margin-top: -9rem;
+    position: absolute;
+}
+
+.txt {
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.z {
+    width: 39rem;
+    height: 27rem;
+    object-fit: cover;
+    margin-top: 2.5rem;
+    margin-left: 20rem;
+}
+
+.rec2 {
+    background-color: #8C8C8C;
+    border-radius: 2%;
+    width: 33.5rem;
+    height: 19.5rem;
+    margin-left: 8rem;
+    margin-top: -6rem;
+    position: absolute;
+}
+
+.txt2 {
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.x {
+    width: 22rem;
+    height: 37rem;
+    object-fit: cover;
+    margin-top: 2.5rem;
+    margin-left: 50rem;
+    margin-top: -6rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+
+.v {
+    width: 26rem;
+    height: 28rem;
+    object-fit: cover;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    background:#fff; border-radius:var(--radius); overflow:hidden; 
+    box-shadow:var(--shadow-rest);
+    transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s;
+    will-change: transform, box-shadow;
+}
+
+.v:hover{
+    transform: translateY(-8px) scale(1.035);
+    box-shadow: var(--shadow-hover);
+  }
+
+.btn2 {
+    background-color: #123524;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-family: 'Jacques Francois';
+    font-size: 1.4rem;
+    width: 15rem;
+    height: 4rem;
+    margin-top: 7rem;
+    margin-left: 31.5rem;
+}
+
+.btn2:hover {
+    background-color: #25372e;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txtx {
+    color: white;
+    font-size: medium;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.d {
+    color: white;
+    margin-left: 67rem;
+    margin-top: -11rem;
+}
+
+.e {
+    color: white;
+    margin-left: 67rem;
+    margin-top: 2rem;
+    font-size: medium
+}
+
+.linez {
+    margin-top: 2rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 79rem;
+    top: 16.5rem;
+}
+
+.cp {
+    color: white;
+    text-align: center;
+    margin-top: 0.5rem;
+}
