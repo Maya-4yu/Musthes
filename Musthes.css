@@ -137,6 +137,13 @@ Efek hover underline
     margin-top: -6rem;
 }
 
+/* .t {
+    background:#fff; border-radius:var(--radius); overflow:hidden; 
+    box-shadow:var(--shadow-rest);
+    transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s;
+    will-change: transform, box-shadow;
+} */
+
 .rating {
     display: flex;
     align-items: center;
@@ -151,8 +158,20 @@ Efek hover underline
     gap: 3rem;
 }
 
+.card {
+    background:#fff; border-radius:var(--radius); overflow:hidden; 
+    box-shadow:var(--shadow-rest);
+    transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s;
+    will-change: transform, box-shadow;
+}
+
+.card:hover{
+    transform: translateY(-8px) scale(1.035);
+    box-shadow: var(--shadow-hover);
+}
+
 .card-list {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 .v {
@@ -228,4 +247,66 @@ Efek hover underline
     color: white;
     text-align: center;
     margin-top: 0.5rem;
+}
+
+.g {
+    width: 27rem;
+    height: 35rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    background:#fff; border-radius:var(--radius); overflow:hidden; 
+    box-shadow:var(--shadow-rest);
+    transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s;
+    will-change: transform, box-shadow;
+}
+
+.g:hover{
+    transform: translateY(-8px) scale(1.035);
+    box-shadow: var(--shadow-hover);
+}
+
+.ody {
+    margin-bottom: 30rem;
+    margin-left: 35rem;
+}
+
+.h {
+    object-fit: cover;
+    width: 27rem;
+    height: 35rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background:#fff; border-radius:var(--radius); overflow:hidden; 
+    box-shadow:var(--shadow-rest);
+    transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s;
+    will-change: transform, box-shadow;
+}
+
+.h:hover{
+    transform: translateY(-8px) scale(1.035);
+    box-shadow: var(--shadow-hover);
+}
+
+.ec {
+    background-color: #D9D9D9;
+    width: 44rem;
+    height: 13rem;
+}
+
+.tangle {
+    background-color: #D9D9D9;
+    width: 2.5rem;
+    height: 2.1rem;
+    margin-top: 1.5rem;
+    padding-top: 0.2rem;
+}
+
+.btn3 {
+    border-radius: 4rem;
+    border: none;
+    background-color: #123524;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
 }

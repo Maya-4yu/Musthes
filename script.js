@@ -20,10 +20,10 @@ new Swiper('.ar', {
     0: {
         slidesPerView: 1
     },
-    768: {
+    576: {
         slidesPerView: 2
     },
-    1024: {
+    768: {
         slidesPerView: 3
     },
   }
