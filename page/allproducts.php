@@ -1,5 +1,4 @@
-
-    <h2 style="text-align: center; margin-top: 10rem; font-family: Jacques Francois;">ALL PRODUCTS & CATEGORIES</h2>
+<h2 style="text-align: center; margin-top: 10rem; font-family: Jacques Francois;">ALL PRODUCTS & CATEGORIES</h2>
     
     <div class="container">
         
