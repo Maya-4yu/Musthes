@@ -147,7 +147,7 @@
         <img src="Musthes.img/Banner/Rectangle 29.png" class="v" alt="..." style="width: 40rem; height: 33rem; margin-top: -2rem;">
         <img src="Musthes.img/Banner/Rectangle 15.png" class="v" alt="..." style="width: 23rem; height: 40rem; margin-left: 5.5rem; margin-top: 4rem;">
 
-        <a href="AllProducts.html">
+        <a href="?page=allproducts">
         <button type="button" class="btn2">See all product</button>
         </a>
     </div>
